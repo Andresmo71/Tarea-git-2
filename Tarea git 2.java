@@ -13,11 +13,13 @@ public class H2EJ15 {
 		int num2=entrada.nextInt();
 		System.out.println("Introduce el tercer numero");
 		int num3=entrada.nextInt();
-		if (num3==num1+num2) {
-			System.out.println("El tercer numero es igual a la suma del primero y el segundo");
+        System.out.println("Introduce el cuarto numero");
+        int num4=entrada.nextInt();
+		if (num4==num1+num2+num3) {
+			System.out.println("El cuarto numero es igual a la suma del primero , el segundo y el tercero ");
 	
 		}else {
-			System.out.println("El tercer numero no es igual a la suma de los otros dos");
+			System.out.println("El tercer numero no es igual a la suma de los otros tres");
 		}
 		
 		entrada.close();
